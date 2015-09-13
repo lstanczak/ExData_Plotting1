@@ -1,3 +1,4 @@
+Sys.setlocale("LC_TIME", "English")
 library(data.table)
 png("plot4.png",width=480 ,height=480 )
 par(mfrow=c(2,2))

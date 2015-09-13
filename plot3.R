@@ -1,3 +1,4 @@
+Sys.setlocale("LC_TIME", "English")
 library(data.table)
 png("plot3.png",width=480 ,height=480 )
 data <- fread("household_power_consumption.txt", na.strings = "?", select = c(1,2,7,8,9))[
